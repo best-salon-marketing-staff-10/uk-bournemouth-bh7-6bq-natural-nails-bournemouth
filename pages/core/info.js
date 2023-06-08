@@ -117,11 +117,11 @@ const changedInfo = {
 
   linkBookingMap: "",
   linkBookingApp: "https://bit.ly/42sVFZh",
-  linkToMap: "https://goo.gl/maps/dqKSsvnAoTWUwhe87",
+  linkToMap: "https://goo.gl/maps/hpXdUJjX56FMy9hz7",
 
   
 
-  //Mở Google Maps tiệm, zoom sát vào, chuột phải  50.73453582145544, -1.8165334467397058
+  //Mở Google Maps tiệm, zoom sát vào, chuột phải  
   geoLatitude: 50.73453582145544,
   geoLongitude: -1.8165334467397058,
 
@@ -129,7 +129,7 @@ const changedInfo = {
   metaGoogleSiteVerification: "",
 
   //iframe map  
-  iframeMapLink : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2525.2135552030104!2d-1.8165321!3d50.734527899999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48739fe4271b9841%3A0x376d699b2e0046e9!2sNatural%20Nails%20Bournemouth!5e0!3m2!1sen!2sus!4v1685845984496!5m2!1sen!2sus",
+  iframeMapLink : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d157.82600053085164!2d-1.816615253690126!3d50.73448239561206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48739f271c54ccfb%3A0x85c52e1e3f341311!2s1119%20Christchurch%20Rd%2C%20Bournemouth%20BH7%206BQ%2C%20UK!5e0!3m2!1sen!2sus!4v1686200960314!5m2!1sen!2sus",
 
   // Các ảnh của tiệm
   ogImage:"https://naturalnailsbournemouth.web.app/images/desktop-nail-salon-happy-customer-1.jpg",
