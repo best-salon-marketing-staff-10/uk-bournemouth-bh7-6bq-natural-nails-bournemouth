@@ -60,23 +60,23 @@ serviceList
   */
 const businessOpeningTimeInput = {
   //Thời gian làm việc của tiệm
-  monOpeningTime : "10:00",
-  monClosingTime : "19:00",
+  monOpeningTime : "09:00",
+  monClosingTime : "18:00",
 
-  tueOpeningTime : "10:00",
-  tueClosingTime : "19:00",
+  tueOpeningTime : "09:00",
+  tueClosingTime : "18:00",
 
-  wedOpeningTime : "10:00",
-  wedClosingTime : "19:00",
+  wedOpeningTime : "09:00",
+  wedClosingTime : "18:00",
 
-  thuOpeningTime : "10:00",
-  thuClosingTime : "19:00",
+  thuOpeningTime : "09:00",
+  thuClosingTime : "18:00",
 
-  friOpeningTime : "10:00",
-  friClosingTime : "19:00",
+  friOpeningTime : "09:00",
+  friClosingTime : "18:00",
 
-  satOpeningTime : "09:30",
-  satClosingTime : "19:00",
+  satOpeningTime : "09:00",
+  satClosingTime : "17:30",
 
   sunOpeningTime : "",
   sunClosingTime : "",
@@ -95,44 +95,44 @@ const processedBusinessOpeningTime = {
 }
 
 
-const changedInfo = {  
-  businessName: "Natural Nails Bromsgrove",
-  businessAddressLevel1: "12 High St",
-  businessAddressLevel2: "Bromsgrove",
-  businessAddressLevel3: "Worcestershire",
+const changedInfo = {   
+  businessName: "Natural Nails Bournemouth",
+  businessAddressLevel1: "1119 Christchurch Rd",
+  businessAddressLevel2: "Bournemouth",
+  businessAddressLevel3: "Dorset",
   businessAddressLevel4: "England",
   businessCountry: "United Kingdom",
   businessGeoRegionCode: "GB",
 
   //Tra cứu tên thành phố trong https://www.geonames.org/GB/administrative-division-united-kingdom.html và điền vào mã code tương ứng
-  businessAddressDivisionCode: "WOR",
+  businessAddressDivisionCode: "DOR",
 
-  businessPostCode: "B61 8HQ",
+  businessPostCode: "BH7 6BQ",
   
 
-  businessPhoneNumber: "01527 574400",
+  businessPhoneNumber: "01202431102",
 
   //Website tiệm KO có dấu / ở cuối
-  businessWebsite: "https://naturalnailsbromsgrove.web.app",
+  businessWebsite: "https://naturalnailsbournemouth.web.app",
 
   linkBookingMap: "",
-  linkBookingApp: "https://bit.ly/3BXPulq",
-  linkToMap: "https://goo.gl/maps/xQb9Hr1uDSDdTqon7",
+  linkBookingApp: "https://bit.ly/42sVFZh",
+  linkToMap: "https://goo.gl/maps/dqKSsvnAoTWUwhe87",
 
   
 
-  //Mở Google Maps tiệm, zoom sát vào, chuột phải  52.33370821542717, -2.06201913457993
-  geoLatitude: 52.33370821542717,
-  geoLongitude: -2.06201913457993,
+  //Mở Google Maps tiệm, zoom sát vào, chuột phải  50.73453582145544, -1.8165334467397058
+  geoLatitude: 50.73453582145544,
+  geoLongitude: -1.8165334467397058,
 
   //Code xác minh của website trên Google Search
   metaGoogleSiteVerification: "",
 
-  //iframe map 
-  iframeMapLink : "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d609.5074705374997!2d-2.061871972137616!3d52.33360399397588!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4870eb824f34a8cd%3A0xc56125a3853d5609!2sNatural%20nails%20bromsgrove!5e0!3m2!1sen!2sus!4v1684464912755!5m2!1sen!2sus",
+  //iframe map  
+  iframeMapLink : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2525.2135552030104!2d-1.8165321!3d50.734527899999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48739fe4271b9841%3A0x376d699b2e0046e9!2sNatural%20Nails%20Bournemouth!5e0!3m2!1sen!2sus!4v1685845984496!5m2!1sen!2sus",
 
   // Các ảnh của tiệm
-  ogImage:"https://naturalnailsbromsgrove.web.app/images/desktop-nail-salon-happy-customer-1.jpg",
+  ogImage:"https://naturalnailsbournemouth.web.app/images/desktop-nail-salon-happy-customer-1.jpg",
   icon:"/icon.jpg",
   businessLogo:"/logo.jpg",
 }
@@ -434,13 +434,13 @@ const schemaInput = {
 
   schemaPriceRange: "££",
   //Cần đổi tên khách
-  schemaPersonReviewAuthorName: "Katie",
+  schemaPersonReviewAuthorName: "",
   //Xem điểm review trung bình của tiệm là bao nhiêu   
-  schemaRatingValue: "5",
+  schemaRatingValue: "",
   schemaBestRating: "5",
 
-  schemaGeoLatitude: 52.33370821542717,  
-  schemaLongitude: -2.06201913457993,
+  schemaGeoLatitude: 50.73453582145544, 
+  schemaLongitude: -1.8165334467397058,
 
   schemaUrl: changedInfo.businessWebsite,
 
@@ -584,7 +584,7 @@ const pageContent = {
   ourStoryDescription: "Located at " + changedInfo.businessAddressLevel1 + ", we are a nail shop in " + changedInfo.businessAddressLevel2 + ". Skilled manicurists and pedicurists look forward to bringing you the best products and services. We are always researching and learning the best products and services, trendy nails, to bring more and more satisfaction to customers who are coming to us.",
 
   //dong-vien-1.js
-  section1Heading: "We are " + seoKeyword.seoKeyword3 + " experienced manicurists and pedicurists",
+  section1Heading: "We are experienced manicurists and pedicurists in " + changedInfo.businessAddressLevel2,
   section1Description: "Are you looking for nail salon in " + changedInfo.businessAddressLevel2 + "? One of the best nail salon in " + changedInfo.businessAddressLevel3 + "? We are proud to say that here we are. We can give you amazing nails with our acrylic extensions and great relaxation with our manicure and pedicure services. We cater to both men and women. You can rest assured and get a sense of satisfaction when you come to us",
 
   //dong-vien-2.js
@@ -845,32 +845,32 @@ const images = {
   const serviceList1 = {
     service1 : "Acrylic Fullset with normal nail polish",
     service1Time : "1 hr",
-    service1Price : "25+",
+    service1Price : "30",
     service1Description : "Our " + seoKeyword.seoKeyword7 + " service help your hands shine by adding a little length to your natural nail. If you're ready for flawless, fierce nails, let the nail technicians at this salon lend their talent and artistry to your tips.",
 
     service2 : "Acrylic Infill with normal nail polish",
     service2Time : "1 hr",
-    service2Price : "20+",
+    service2Price : "20",
     service2Description : "Nail refills are recommended around 3 to 4 weeks from the date of the initial application. A quick nail refill is the best way to make the most of your nail extensions.",
 
     service3 : "Acrylic Full Set with Shellac",
     service3Time : "1 hr",
-    service3Price : "40+",
+    service3Price : "38",
     service3Description : "Our " + seoKeyword.seoKeyword7 + " service help your hands shine by adding a little length to your natural nail. If you're ready for flawless, fierce nails, let the nail technicians at this salon lend their talent and artistry to your tips.",
 
     service4 : "Acrylic Infill with Shellac",
     service4Time : "1 hr",
-    service4Price : "30+",
+    service4Price : "28",
     service4Description : "Nail refills are recommended around 3 to 4 weeks from the date of the initial application. A quick nail refill is the best way to make the most of your nail extensions.",
-    
+
     service5 : "Gel Powder Full Set with normal nail polish",
     service5Time : "45 mins",
-    service5Price : "28",
+    service5Price : "33",
     service5Description : "Our " + seoKeyword.seoKeyword7 + " service help your hands shine by adding a little length to your natural nail. If you're ready for flawless, fierce nails, let the nail technicians at this salon lend their talent and artistry to your tips.",
-  
+
     service6 : "Gel Powder Infill with normal nail polish",
     service6Time : "45 mins",
-    service6Price : "20",
+    service6Price : "23",
     service6Description : "Nail refills are recommended around 3 to 4 weeks from the date of the initial application. A quick nail refill is the best way to make the most of your nail extensions.",
 
     service7 : "Full Set Pink & White",
@@ -885,17 +885,17 @@ const images = {
 
     service9 : "Full Set Ombre",
     service9Time : "1 hr",
-    service9Price : "40+",
+    service9Price : "40",
     service9Description : "You could be the Queen of the Ombre nails, with the right technique. The technicians at our " + seoKeyword.seoKeyword2 + " will masterfully blend one color into another, creating a unique and beautiful look, and adding it to your finger tips.",
 
     service10 : "Infill Ombre",
     service10Time : "1 hr",
-    service10Price : "30+",
+    service10Price : "30",
     service10Description : "Nail refills are recommended around 3 to 4 weeks from the date of the initial application. A quick nail refill is the best way to make the most of your nail extensions.",
 
     service11 : "Full Set Colour Powder",
     service11Time : "1 hr",
-    service11Price : "38+",
+    service11Price : "35",
     service11Description : "Our " + seoKeyword.seoKeyword7 + " service help your hands shine by adding a little length to your natural nail. If you're ready for flawless, fierce nails, let the nail technicians at this salon lend their talent and artistry to your tips.",
   
     service12 : "Infill Colour Powder (Same Colour)",
@@ -955,12 +955,12 @@ const images = {
 
     service23 : "Dipping Powder SNS ",
     service23Time : "1 hr",
-    service23Price : "35+",
+    service23Price : "35",
     service23Description : "SNS Dipping Powder creates a stronger polish finish which can help strengthen brittle or weak nails.",
-  
-    service24 : "BIAB buider gel Fullset",
+
+    service24 : "BIAB buider gel Fullset with Shellac",
     service24Time : "35 mins",
-    service24Price : "37",
+    service24Price : "33",
     service24Description : "",
   
     service25 : "BIAB buider gel Infill",
@@ -985,7 +985,7 @@ const images = {
 
     service29 : "Take off Acrylic and Redone Acrylic Fullset with normal nail polish",
     service29Time : "1 hr",
-    service29Price : "35",
+    service29Price : "43",
     service29Description : "",
 
     service30 : "Take off Acrylic and Redone Acrylic Fullset with Shellac",
@@ -1020,12 +1020,12 @@ const images = {
 
     service36 : "Take off Powder and Manicure with normal polish",
     service36Time : "35 mins",
-    service36Price : "25",
+    service36Price : "20",
     service36Description : "Take off powder and then do manicure",
 
     service37 : "Take off colour Powder and Redone a Newset",
     servicce37Time : "60 mins",
-    service37Price : "45",
+    service37Price : "40",
     service37Description : "",
 
     service38 : "Full set Acrylic French Tip",
@@ -1075,7 +1075,7 @@ const images = {
 
     service47 : "Infill Colour Powder",
     service47Time : "1 hr",
-    service47Price : "30+",
+    service47Price : "25",
     service47Description : "",
 
     service48: "Dipping Extensions",
@@ -1095,7 +1095,7 @@ const images = {
 
     service51: "BIAB on Natural nails",
     service51Time : "1 hr",
-    service51Price : "30+",
+    service51Price : "30",
     service51Description : "",
 
     service52: "BIAB Extension",
@@ -1103,15 +1103,31 @@ const images = {
     service52Price : "35+",
     service52Description: "",
 
-    service53: "",
-    service53Time : "",
-    service53Price : "",
+    service53: "Overlay Fullset with Shellac",
+    service53Time : "45 mins",
+    service53Price : "35",
     service53Descriptipon: "",
 
-    service54: "",
-    service54Time : "",
-    service54Price : "",
+    service54: "Gel Powder Infill with Shellac",
+    service54Time : "45 mins",
+    service54Price : "30",
     service54Description : "",
+
+    service55: "Take off + Acrylic",
+    service55Time : "45 mins",
+    service55Price : "10",
+    service55Description : "",
+
+    service56: "Take off Gel Powder and Redone Gel Powder Fullset",
+    service56Time : "60 mins",
+    service56Price : "45",
+    service56Description: "",
+
+    service57: "Take off + Overlay + Shellac",
+    service57Time : "60 mins",
+    service57Price: "38",
+    service57Description: "",
+
 
 
 
@@ -1122,37 +1138,37 @@ const images = {
   const serviceList2 = {
     service1 : "Nail shape with Shellac nails on hand",
     service1Time : "30 mins",
-    service1Price : "20+",
+    service1Price : "23",
     service1Description : "Let us transform your nails into perfectly shaped works of art, while long-lasting Shellac polish adds a pop of vibrant color to your fingertips. You'll feel confident and beautiful with every hand gesture, making you fall in love with yourself all over again.",
-  
+
     service2 : "Nail shape with Shellac nails on feet",
     service2Time : "30 mins",
-    service2Price : "20+",
+    service2Price : "25",
     service2Description : "Our expert technicians will shape and polish your toes to perfection, leaving you with beautifully polished and well-groomed feet. With the long-lasting, chip-resistant Shellac polish, you can enjoy your stunning feet for weeks to come. Give yourself the gift of self-care and feel confident and stylish with every step.",
-  
+
     service3 : "Manicure Shellac",
     service3Time : "1 hr",
-    service3Price : "28+",
+    service3Price : "28",
     service3Description : "Manicures are a difficult art to master. No matter how great they look when finished, they seem to always chip within days, if not in a matter of hours. Enter the Gel nail manicure - a groundbreaking technique that uses gel polishes that get 'cured' under UV lights. The result? Shiny, strong nails for weeks and no drying time!",
 
     service4 : "Pedicure Shellac",
     service4Time : "1 hr",
-    service4Price : "40+",
+    service4Price : "38",
     service4Description : "Please bring Flip Flops/Sandals. Highly recommended with Gel Colour. Last longer and less likely to chip! Fries instantly so you don't have to worry about smudging it.",
   
     service5 : "Gel Polish Manicure & Pedicure",
     service5Time : "1 hr 25 mins",
     service5Price : "65+",
     service5Description : "Manicure includes massage, cuticle, shaping, file, polish and moisturiser. Pedicure includes scrub, dead skin, cuticle, massage, moisturise, shape, file and polish. Shellac pedicure and manicure lasts up to two weeks, it’s well worth the wait.",
-  
-    service6 : "Take off shellac and Redone Gel Polish on Hand",
+
+    service6 : "Take off Shellac and Redone Gel Polish on Hand",
     service6Time : "30 mins",
-    service6Price : "25",
+    service6Price : "28",
     service6Description : "",
-  
-    service7 : "Take off shellac and Redone Gel Polish on Feet",
+
+    service7 : "Take off Shellac and Redone Gel Polish on Feet",
     service7Time : "40 mins",
-    service7Price : "25",
+    service7Price : "30",
     service7Description : "",
   
     service8 : "Take off shellac",
@@ -1175,12 +1191,12 @@ const images = {
   const serviceList3 = {
     service1 : "Manicure with normal polish",
     service1Time : "30 mins",
-    service1Price : "18+",
+    service1Price : "15",
     service1Description : "A classic manicure is all you need to take great care of your hands and nails. Includes massage, cuticle, shaping, file, polish and moisturiser.",
 
     service2 : "Pedicure with normal polish",
     service2Time : "1 hr",
-    service2Price : "25+",
+    service2Price : "30",
     service2Description : "A classic pedicure is all you need to take great care of your feet and nails. Includes scrub, dead skin, cuticle, massage, moisturise, shape, file and polish.",
     
     service3 : "Luxury Pedicure",
@@ -1190,7 +1206,7 @@ const images = {
 
     service4 : "Manicure & Pedicure with normal polish",
     service4Time : "1 hr 15 mins",
-    service4Price : "40+",
+    service4Price : "43",
     service4Description : "Manicure includes massage, cuticle, shaping, file, polish and moisturiser. Pedicure includes scrub, dead skin, cuticle, massage, moisturise, shape, file and polish.",
   
     service5 : "Men's Manicure & Pedicure",
@@ -1200,12 +1216,12 @@ const images = {
 
     service6 : "Shape & paint on hands",
     service6Time : "15 mins",
-    service6Price : "10+",
+    service6Price : "12",
     service6Description : "Want to show off your individuality? Come to " + changedInfo.businessName + " to paint on your nails with designs from experts at our " + seoKeyword.seoKeyword1,
 
     service7 : "Shape & paint on toes",
     service7Time : "15 mins",
-    service7Price : "10+",
+    service7Price : "17",
     service7Description : "Fancy something a little different? Head into our " + seoKeyword.seoKeyword2 + " for new ways to choose the perfect colour for your toes. Pick from a range of colours or go for an intricate design on your toe nails.",
 
     service8 : "Smoothing Pedicure with normal polish",
@@ -1316,13 +1332,13 @@ const images = {
 
     service2 : "Diamond Crystal x10",
     service2Time : "",
-    service2Price : "5+",
+    service2Price : "£5 - £10",
     service2Description : "Allow us to pamper your nails with an extra sparkle and shine. The diamond-like crystals will leave your nails looking stunning and unique, sure to make you feel confident and beautiful. Embrace your feminine side and love the skin you're in with this elegant and sophisticated addition to your nails",
 
-    service3 : "3D nail art (from)",
+    service3 : "Nail art",
     service3Time : "",
-    service3Price : "5",
-    service3Description : "",
+    service3Price : "£8 - £10",
+    service3Description : "Indulge in the ultimate self-care experience with our Nail Art service. Discover the perfect way to express your personality and style through a customized design tailored to your taste. Our talented nail artists will turn your nails into a masterpiece, making you feel confident and beautiful from tip to toe. Embrace the latest fashion trends and indulge in the luxurious feeling of well-groomed nails. Love yourself and show off your new look with pride. Experience Nail Art and fall in love with your fabulous self.",
 
     service4 : "Three colours/five colours",
     service4Time : "",
@@ -1331,8 +1347,15 @@ const images = {
 
     service5: "Chrome (extra)",
     service5Time : "",
-    service5Price : "5+",
+    service5Price : "5",
     service5Description : "Our skilled technicians will expertly apply a layer of chrome finish to give your nails a metallic shine that will have everyone envious. From classic silver to bold and brilliant gold, we have a range of chrome colors to choose from. Embrace your feminine side and pamper yourself with a touch of glamour with Chrome Nails. Get ready to turn heads and feel confident in your skin with this chic and sophisticated manicure. Your nails deserve the best, come and visit us today!",
+
+    //
+    service6: "French Tip / Colour Tip ",
+    service6Time : "",
+    service6Price : "5",
+    service6Description : "",
+
 
 
   }; 
