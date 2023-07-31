@@ -110,26 +110,26 @@ const changedInfo = {
   businessPostCode: "BH7 6BQ",
   
 
-  businessPhoneNumber: "01202431102",
+  businessPhoneNumber: "+441202431102",
 
   //Website tiệm KO có dấu / ở cuối
   businessWebsite: "https://naturalnailsbournemouth.web.app",
 
   linkBookingMap: "",
   linkBookingApp: "https://bit.ly/42sVFZh",
-  linkToMap: "https://goo.gl/maps/hpXdUJjX56FMy9hz7",
+  linkToMap: "https://goo.gl/maps/8J3WL5zn3rbgbak4A",
 
   
 
   //Mở Google Maps tiệm, zoom sát vào, chuột phải  
-  geoLatitude: 50.73453582145544,
-  geoLongitude: -1.8165334467397058,
+  geoLatitude: 50.73453505687638,
+  geoLongitude: -1.8165327858378442,
 
   //Code xác minh của website trên Google Search
   metaGoogleSiteVerification: "",
 
-  //iframe map  
-  iframeMapLink : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d157.82600053085164!2d-1.816615253690126!3d50.73448239561206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48739f271c54ccfb%3A0x85c52e1e3f341311!2s1119%20Christchurch%20Rd%2C%20Bournemouth%20BH7%206BQ%2C%20UK!5e0!3m2!1sen!2sus!4v1686200960314!5m2!1sen!2sus",
+  //iframe map 
+  iframeMapLink : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d157.8259525047249!2d-1.816588776950248!3d50.73449664846886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48739fe4271b9841%3A0x376d699b2e0046e9!2sNatural%20Nails%20Bournemouth!5e0!3m2!1sen!2sus!4v1686712459112!5m2!1sen!2sus",
 
   // Các ảnh của tiệm
   ogImage:"https://naturalnailsbournemouth.web.app/images/desktop-nail-salon-happy-customer-1.jpg",
@@ -159,7 +159,7 @@ const serviceCategory = {
   serviceCategory3:"Manicure / Pedicure",
   serviceCategory4:"Hair Wash massage with NuSkin",
   serviceCategory5:"Nail design",
-  serviceCategory6:"Waxing",
+  serviceCategory6:"Beauty",
   serviceCategory7:"Facial",
 
   mobileLinkToServiceCategory1 : "/services#m-service-list-1",
@@ -434,9 +434,9 @@ const schemaInput = {
 
   schemaPriceRange: "££",
   //Cần đổi tên khách
-  schemaPersonReviewAuthorName: "",
+  schemaPersonReviewAuthorName: "Andrea Foster",
   //Xem điểm review trung bình của tiệm là bao nhiêu   
-  schemaRatingValue: "",
+  schemaRatingValue: "5",
   schemaBestRating: "5",
 
   schemaGeoLatitude: 50.73453582145544, 
@@ -651,7 +651,7 @@ const pageContent = {
   "Whatever design you want, we can do it for you. We are proud to be one of the " + seoKeyword.seoKeyword3 + " leading professional artists.",
   
   //service-6.js
-  serviceCategory6Description : "We offer waxing service. Our estheticians use the latest techniques and products to ensure your hair removal experience is as smooth and gentle as possible.",
+  serviceCategory6Description : "At our salon, we provide an array of top-notch beauty services. With modern technology and premium products, we ensure that our customers are left satisfied after indulging in our beauty treatments.",
 
   //service-7.js
   serviceCategory7Description : "It’s time to pamper yourself and forget about the day’s stress 🌸. No question, we know that being healthy is the best beauty tip. Come have a facial with us and learn how to take care of your skin so you can look and feel beautiful everyday.",
@@ -773,9 +773,9 @@ const images = {
   serviceList5Image4 : "/images/nail-design-4.jpg",
   serviceList5Image5 : "/images/nail-design-5.jpg",
 
-  serviceList6Image1 : "/images/waxing-1.jpg",
-  serviceList6Image2 : "/images/waxing-2.jpg",
-  serviceList6Image3 : "/images/waxing-3.jpg",
+  serviceList6Image1 : "/images/beauty-service-1.jpg",
+  serviceList6Image2 : "/images/beauty-service-2.jpg",
+  serviceList6Image3 : "/images/beauty-service-3.jpg",
   serviceList6Image4 : "",
   serviceList6Image5 : "",
 
@@ -1363,17 +1363,17 @@ const images = {
   const serviceList6 = {
     service1 : "Eyebrow Shape",
     service1Time : "15 mins",
-    service1Price : "10",
+    service1Price : "6",
     service1Description : "",
   
     service2 : "Lip waxing",
     service2Time : "15 mins",
     service2Price : "5",
     service2Description : "",
-  
+
     service3 : "Chin waxing",
     service3Time : "15 mins",
-    service3Price : "5",
+    service3Price : "7",
     service3Description : "",
   
     service4 : "Under arm waxing",
@@ -1420,30 +1420,30 @@ const images = {
     service12Time : "",
     service12Price : "40",
     service12Description : "PATCH TEST 24 HOURS PRIOR",
-  
+
     service13 : "Eyebrow tinting ",
     service13Time : "20 mins",
-    service13Price : "12",
+    service13Price : "6",
     service13Description : "",
-  
-    service14 : "Eyebrow THREADING",
+
+    service14 : "Eyebrow Threading",
     service14Time : "15 mins",
     service14Price : "8",
     service14Description : "",
   
-    service15 : "Lip THREADING",
+    service15 : "Lip Threading",
     service15Time : "15 mins",
     service15Price : "6",
     service15Description : "",
   
-    service16 : "Chin THREADING",
+    service16 : "Chin Threading",
     service16Time : "15 mins",
     service16Price : "8",
     service16Description : "",
 
     service17 : "Eyelash tinting",
     service17Time : "20 mins",
-    service17Price : "10",
+    service17Price : "8",
     service17Description : "",
 
     service18 : "Henna eyebrows",
@@ -1470,6 +1470,12 @@ const images = {
     service22Time : "20 mins",
     service22Price : "35",
     service22Description : "",
+
+    service23: "Full face waxing",
+    service23Time : "20 mins",
+    service23Price: "25",
+    service23Description : "",
+
   };
 
   const serviceList7 = {
