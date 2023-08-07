@@ -722,7 +722,7 @@ const button = {
 
 const images = {
   //Ảnh ở Homepage carousel
-  mobileCarouselImage1 : "/images/mobile-nail-salon-happy-customer-1.jpg",
+  mobileCarouselImage1 : "/images/mobile-nail-salon-happy-customer-1-1.jpg",
   mobileCarouselImage2 : "/images/mobile-nail-salon-happy-customer-2.jpg",
   mobileCarouselImage3 : "/images/mobile-nail-salon-happy-customer-3.jpg",
 

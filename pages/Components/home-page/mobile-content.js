@@ -21,21 +21,32 @@ import Offers from '/pages/Components/offers/offers';
 import { imageAlt } from '/pages/core/info';
 import { pageContent } from '/pages/core/info';
 import { images } from '/pages/core/info';
+import Carousel from 'react-bootstrap/Carousel';
+
 
 export default function MobileContent(){
     return(
         <>
             <div className="mobile-content">
                 <div className="first-screen-block">
-                    <img className="first-screen-block-anh" alt={imageAlt.mobileCarouselImage1Alt} 
-                            src={images.mobileCarouselImage1} />
-                    <div className="first-screen-block-bottom">
-                        <h1 className="first-screen-block-title">
-                            {pageContent.carouselHeading}
-                        </h1>
-                        <div className="button">
-                            <Button1 />
-                        </div>
+                    <div>
+                        <Carousel fade={true} controls={false} interval="1800">
+                            <Carousel.Item>
+                                <div className="carousel-image">
+                                    <img className="d-block w-100" src={images.mobileCarouselImage1} />
+                                </div>
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <div className="carousel-image">
+                                    <img className="d-block w-100" src={images.mobileCarouselImage2} />
+                                </div>
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <div className="carousel-image">
+                                    <img className="d-block w-100" src={images.mobileCarouselImage3} />
+                                </div>
+                            </Carousel.Item>
+                        </Carousel> 
                     </div>
                 </div>
                 <div className="nhan-manh-1" id="m-section-1">
